@@ -13,7 +13,7 @@
     ],
     "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url": "git@github.com:OlegBodyansky/plivo.git"
         }
 
