@@ -35,11 +35,11 @@ class MessagingServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('midnite81.plivo', function ($app) {
+        $this->app->singleton('bodyansky.plivo', function ($app) {
             return new Messaging($app->make(Plivo::class));
         });
 
-        $this->app->alias('midnite81.plivo', 'Bodyansky\Plivo\Contracts\Services\Messaging');
+        $this->app->alias('bodyansky.plivo', 'Bodyansky\Plivo\Contracts\Services\Messaging');
 
         foreach (glob(__DIR__ . '/Helpers/*.php') as $filename) {
             require_once($filename);
@@ -53,6 +53,6 @@ class MessagingServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['midnite81.plivo', 'Bodyansky\Plivo\Contracts\Services\Messaging'];
+        return ['bodyansky.plivo', 'Bodyansky\Plivo\Contracts\Services\Messaging'];
     }
 }

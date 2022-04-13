@@ -10,5 +10,5 @@ class Messaging extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'midnite81.plivo'; }
+    protected static function getFacadeAccessor() { return 'bodyansky.plivo'; }
 }

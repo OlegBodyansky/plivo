@@ -1,5 +1,5 @@
 {
-    "name": "bodyansky/plivo",
+    "name": "OlegBodyansky/plivo",
     "description": "A Plivo SMS integration for Laravel",
     "keywords": ["sms", "laravel", "plivo"],
     "homepage": "https://github.com/OlegBodyansky/plivo",
@@ -8,7 +8,7 @@
         {
             "name": "Oleg Bodyansky",
             "email": "oleg.bodyansky@gmail.com",
-
+            "role": "Developer"
         }
     ],
     "require": {
