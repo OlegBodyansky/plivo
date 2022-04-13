@@ -12,7 +12,7 @@ This package requires PHP 7.4+, and includes a Laravel 7 Service Provider and Fa
 
 To install through composer include the package in your `composer.json`.
 
-    "bodyansky/plivo": "0.1.*"
+    "bodyansky/plivo": "0.0.1"
 
 Run `composer install` or `composer update` to download the dependencies or you can run `composer require bodyansky/plivo`.
 
