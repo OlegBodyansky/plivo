@@ -1,5 +1,5 @@
 {
-    "name": "dyansky/plivo",
+    "name": "bodyansky/plivo",
     "description": "A Plivo SMS integration for Laravel",
     "keywords": ["sms", "laravel", "plivo"],
     "homepage": "https://github.com/OlegBodyansky/plivo",
