@@ -11,6 +11,13 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:OlegBodyansky/plivo.git"
+        }
+
+    ],
     "require": {
         "php": "^7.4",
         "plivo/plivo-php": "^4.28"
