@@ -8,7 +8,7 @@ Since producing this package, Plivo have updated their own API package which is 
 
 ## Installation
 
-This package requires PHP 7.4+, and includes a Laravel 5 Service Provider and Facade.
+This package requires PHP 7.4+, and includes a Laravel 7 Service Provider and Facade.
 
 To install through composer include the package in your `composer.json`.
 
