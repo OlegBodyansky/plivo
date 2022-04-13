@@ -1,0 +1,29 @@
+{
+    "name": "bodyansky/plivo",
+    "description": "A Plivo SMS integration for Laravel",
+    "keywords": ["sms", "laravel", "plivo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Bodyansky",
+            "email": "oleg.bodyansky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "plivo/plivo-php": "^4.28"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Bodyansky\\Plivo\\": "src/"
+        }
+    },
+    "extra": {
+        "component": "package",
+        "frameworks": ["Laravel 7.4"]
+    },
+    "minimum-stability": "stable"
+}
