@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "plivo/plivo-php": "^4.28"
     },
     "require-dev": {
@@ -25,7 +25,7 @@
     },
     "extra": {
         "component": "package",
-        "frameworks": ["Laravel 7.4"]
+        "frameworks": ["Laravel 8"]
     },
     "minimum-stability": "stable"
 }
