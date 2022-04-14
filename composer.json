@@ -27,5 +27,5 @@
         "component": "package",
         "frameworks": ["Laravel 8"]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
