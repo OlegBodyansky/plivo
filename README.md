@@ -1,11 +1,7 @@
 # Plivo 
 [![Latest Stable Version](https://poser.pugx.org/bodyansky/plivo/version)](https://packagist.org/packages/bodyansky/plivo) [![Total Downloads](https://poser.pugx.org/bodyansky/plivo/downloads)](https://packagist.org/packages/bodyansky/plivo) [![Latest Unstable Version](https://poser.pugx.org/bodyansky/plivo/v/unstable)](https://packagist.org/packages/bodyansky/plivo) [![License](https://poser.pugx.org/bodyansky/plivo/license.svg)](https://packagist.org/packages/bodyansky/plivo)   
 A Plivo SMS integration for Laravel
-
-## Project is archived
-
-Since producing this package, Plivo have updated their own API package which is comprehensive. As such I've decided to archive this project as I am not doing any current development on it. 
-
+ 
 ## Installation
 
 This package requires PHP 7.4+, and includes a Laravel 7 Service Provider and Facade.
